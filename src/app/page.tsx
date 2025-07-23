@@ -5,9 +5,14 @@ export default function Home() {
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <h1 className="text-4xl font-bold">Lincoln Wisely</h1>
-        <p className="text-lg">Hi! I’m Lincoln. I'm a software engineer based in Saint Louis, Missouri, USA. 
+        <p className="text-lg">
+          Hi! I&#39;m Lincoln, a software engineer based in Saint Louis,
+          Missouri, USA.
         </p>
-<p>I love the thrill and challenge of software development, especially when I get to collaborate with smart people from around the world.</p>
+        <p>
+          I love the thrill and challenge of software development, especially
+          when I get to collaborate with smart people from around the world.
+        </p>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
@@ -34,7 +39,6 @@ export default function Home() {
           <Image
             aria-hidden
             src="/img/bluesky.png"
-            
             alt="Bluesky logo"
             width={30}
             height={30}
