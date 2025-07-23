@@ -28,11 +28,13 @@ export default function Home() {
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://bsky.app/profile/lincoln42.bsky.social"
+          target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             aria-hidden
             src="/img/bluesky.png"
+            
             alt="Bluesky logo"
             width={30}
             height={30}
