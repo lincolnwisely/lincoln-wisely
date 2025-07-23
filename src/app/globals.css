@@ -16,6 +16,7 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --darkgreen: #013220;
   }
 }
 
@@ -23,4 +24,11 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.darkgreen {
+  background: var(--darkgreen);
+  width: 100%;
+  overflow: visible;
 }
