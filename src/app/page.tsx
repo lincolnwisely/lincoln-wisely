@@ -31,7 +31,7 @@ export default function Home() {
           Github
         </a>
         <a
-          className="flex items-center gap-2 hover:grow hover:underline-offset-4"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
           href="https://www.linkedin.com/in/lincolnwisely/"
           target="_blank"
           rel="noopener noreferrer"
