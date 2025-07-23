@@ -25,8 +25,8 @@ export default function Home() {
             aria-hidden
             src="/img/github.png"
             alt="Github icon"
-            width={20}
-            height={20}
+            width={22}
+            height={22}
           />
           Github
         </a>
@@ -70,8 +70,8 @@ export default function Home() {
             aria-hidden
             src="/img/discogs.png"
             alt="Discogs icon"
-            width={20}
-            height={20}
+            width={19}
+            height={19}
           />
           Discogs
         </a>
