@@ -1,0 +1,59 @@
+{
+    "experience": [
+        {
+            "title": "Plex",
+            "description": "Initially developed features for Smart TV apps using Lightning JS; later transitioned to React Native, internal BFF api, consuming a myriad of internal APIs to support the Plex app.",
+            "logo": null,
+            "clients": [
+                {
+                    "name": "Plex",
+                    "logo": "/img/plex.png"
+                }
+            ]
+        },
+        {
+            "title": "HLK",
+            "description": "Custom web components for Marriott International, Equifax and Unigroup; WordPress support for Bayer, Winchester and additional Marriott International properties.",    
+            "logo": null,
+            "clients": [
+                {
+                    "name": "Marriott International",
+                    "logo": "/img/marriott-international.png"
+                }, 
+                {
+                    "name": "Equifax",
+                    "logo": "/img/equifax.png"
+                },
+                {
+                    "name": "Unigroup",
+                    "logo": "/img/unigroup.png"
+                }, 
+                {
+                    "name": "Bayer",
+                    "logo": "/img/bayer.png"
+                }
+            ]
+        }, 
+        {
+            "title": "Manifest",
+            "description": "Frontend Drupal development for CDW, University of Michigan Health Blog, The Paper and Packaging Board and additional clients",
+            "logo": null,
+            "clients": [
+                {
+                    "name": "CDW",
+                    "logo": "/img/cdw.png"
+                },
+    
+                {
+                    "name": "The Paper and Packaging Board",
+                    "logo": "/img/paper-packaging-board.png"
+                }, 
+                    
+                {
+                    "name": "University of Michigan Health blog",
+                    "logo": "/img/michigan-medicine.png"
+                }
+            ]
+        }
+    ]
+}
