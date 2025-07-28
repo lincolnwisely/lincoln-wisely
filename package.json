@@ -10,10 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/third-parties": "^15.4.3",
-    "next": "^15.4.3",
+    "next": "15.4.2",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "resend": "^4.7.0",
+    "zod": "^4.0.10"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
