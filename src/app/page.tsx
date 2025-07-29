@@ -12,9 +12,9 @@ export default function Home() {
           Missouri, USA.
         </p>
         <p>
-          I am really proud of and grateful for work I have contributed in my
-          career thus far. That said, I still have a lot to learn and lot of
-          room to grow.
+          I am really proud of and grateful for the work I have contributed in
+          my career thus far. That said, I still have a lot to learn and a lot
+          of room to grow.
         </p>
         <p>
           The majority of my work experience relates to JS frameworks such as

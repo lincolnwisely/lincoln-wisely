@@ -20,11 +20,10 @@ export default function ContactForm() {
 
       if (response.ok) {
         setMessage("Message sent successfully!");
-        event.currentTarget.reset();
+        event.currentTarget?.reset();
+        document.getElementById("leForm")?.classList.add("hidden");
       } else {
-        setMessage(
-          "Failed to send message. Please try again. Could also be that my domain name is still not verified. It is taking forever so find me on LinkedIn, Discogs, Bluesky or find my mom and ask her what my email is."
-        );
+        setMessage("Failed to send message. Please try again.");
       }
     } catch (error) {
       setMessage("An error occurred. Please try again.");
@@ -36,7 +35,7 @@ export default function ContactForm() {
 
   return (
     <div className="w-full  mx-auto">
-      <form onSubmit={onSubmit} className="space-y-4">
+      <form id="leForm" onSubmit={onSubmit} className="space-y-4">
         <div>
           <label htmlFor="name" className="block text-sm font-medium mb-1">
             Name
