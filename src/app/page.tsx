@@ -5,35 +5,47 @@ import Experience from "./experience";
 export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start pb-8">
-        <h1 className="text-4xl font-mono font-bold">Lincoln Wisely</h1>
-        <p>
-          Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
-          Missouri, USA.
-        </p>
-        <p>
-          I am really proud of and grateful for the work I have contributed in
-          my career thus far. That said, I still have a lot to learn and a lot
-          of room to grow.
-        </p>
-        <p>
-          The majority of my work experience relates to JS frameworks such as
-          Next.js and Gatsby; libraries like React, Bootstrap, JQuery; and CMS
-          development - namely WordPress and Drupal. I love the thrill and
-          challenge of software development, especially when I get to
-          collaborate with smart people from around the world.
-        </p>
+      <main className="flex flex-col gap-[32px] row-start-2  sm:items-start pb-8">
+        <h1 className="text-4xl text-left font-mono font-bold">
+          Lincoln Wisely
+        </h1>
+        <div className="flex flex-col-reverse lg:flex-row">
+          <div className="w-full lg:w-1/2 lg:pr-8">
+            <p>
+              Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
+              Missouri, USA.
+            </p>
+            <br />
 
-        <p>
-          I also love dogs, traveling to new places and watching{" "}
-          <a
-            className="underlined text-indigo-400"
-            href="https://watch.plex.tv/u/lincolnwisely"
-            target="_blank"
-          >
-            movies and shows.
-          </a>
-        </p>
+            <p>
+              I am really proud of and grateful for the work I have contributed
+              in my career thus far. That said, I still have a lot to learn and
+              a lot of room to grow.
+            </p>
+            <br />
+
+            <p>
+              The majority of my work experience relates to JS frameworks such
+              as Next.js and Gatsby; libraries like React, Bootstrap, JQuery;
+              and CMS development - namely WordPress and Drupal. I love the
+              thrill and challenge of software development, especially when I
+              get to collaborate with smart people from around the world.
+            </p>
+            <br />
+
+            <p>
+              I also love dogs, traveling to new places and watching{" "}
+              <a
+                className="underlined text-indigo-400"
+                href="https://watch.plex.tv/u/lincolnwisely"
+                target="_blank"
+              >
+                movies and shows.
+              </a>
+            </p>
+          </div>
+          <div className="w-full lg:w-1/2 rounded bg-indigo-500 bg-[url(/img/lincoln.jpg)] bg-blend-multiply bg-cover bg-center h-60 mb-10 lg:h-full"></div>
+        </div>
         <br />
 
         <div className="w-full mx-auto">
