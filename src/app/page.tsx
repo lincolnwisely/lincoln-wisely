@@ -3,12 +3,13 @@ import ContactForm from "@/components/form";
 import Experience from "@/components/experience";
 import Banner from "@/components/banner";
 import Chip from "@/components/chip";
+import Eleanor from "@/components/eleanor";
 
 export default function Home() {
   return (
     <div>
 
-        <Banner message={"Hey everyone! I am currently seeking a new role. Reach out via the form, LinkedIn, BlueSky or email."} />
+        <Banner message={"Hey everyone! I am currently seeking a new role. Reach out via the form, LinkedIn, BlueSky or email. Or ask my mom for my number."} />
     <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2  sm:items-start pb-8">
         <h1 className="text-4xl text-left font-mono font-bold">
@@ -18,7 +19,7 @@ export default function Home() {
           <div className="w-full lg:w-1/2 lg:pr-8">
             <p>
               Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
-              Missouri, USA.
+              Missouri, USA. I use she/her pronouns.
             </p>
             <br />
 
@@ -33,22 +34,20 @@ export default function Home() {
 
 
     <div className="flex flex-wrap gap-2 pb-6">
-      <Chip label="TypeScript" />
-      <Chip label="JavaScript" />
-      <Chip label="Node.js" />
-      <Chip label="React" />
-      <Chip label="Drupal" />
-      <Chip label="Next.js" />
-      <Chip label="Gatsby" />
-      <Chip label="MongoDB" />
-      <Chip label="WordPress" />
-      <Chip label="Bootstrap" />
-      <Chip label="jQuery" />
-      <Chip label="some python" />
-      <Chip label="version control" />
-      <Chip label="Figma" />
-      <Chip label="Adobe XD" />
-      <Chip label="Logic & Reason" />
+      <Chip label="TypeScript" url="https://www.typescriptlang.org/" />
+      <Chip label="JavaScript" url="https://developer.mozilla.org/en-US/docs/Web/JavaScript" />
+      <Chip label="Node.js" url="https://nodejs.org/en" />
+      <Chip label="React" url="https://react.dev/" />
+      <Chip label="Drupal" url="https://www.drupal.org/" />
+      <Chip label="Next.js" url="https://nextjs.org/" />
+      <Chip label="Gatsby" url="https://www.gatsbyjs.com/" />
+      <Chip label="MongoDB" url="https://www.mongodb.com/" />
+      <Chip label="WordPress" url="https://wordpress.org/" />
+      <Chip label="Bootstrap" url="https://getbootstrap.com/" />
+      <Chip label="jQuery" url="https://jquery.com/" />
+      <Chip label="some python" url="https://www.python.org/" />
+      <Chip label="Figma" url="https://www.figma.com/" />
+      <Chip label="Logic & Reason" url="https://www.npr.org/" />
     </div>
 
 
@@ -59,14 +58,7 @@ export default function Home() {
             <br />
 
             <p>
-              I also love dogs, traveling to new places and managing my personal media server. I&#39;m obsessed with watching{" "}
-              <a
-                className="underlined text-indigo-400"
-                href="https://watch.plex.tv/u/lincolnwisely"
-                target="_blank"
-                >
-                movies and shows. 
-              </a>
+              I also love dogs, traveling to new places and managing my personal media server.
             </p>
           </div>
           <div className="w-full lg:w-1/2 rounded bg-indigo-500 bg-[url(/img/lincoln.jpg)] bg-blend-multiply bg-cover bg-center h-60 mb-10 lg:h-full"></div>
@@ -79,6 +71,13 @@ export default function Home() {
           </h2>
           <br />
           <Experience />
+        </div>
+        <br />
+
+        <div className="w-full">
+    
+          <br />
+          <Eleanor />
         </div>
         <br />
 
