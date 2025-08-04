@@ -1,5 +1,5 @@
 import Image from "next/image";
-import data from "./fixtures/data.json";
+import data from "../app/fixtures/data.json";
 
 interface Client {
   name: string;

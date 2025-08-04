@@ -1,7 +1,8 @@
 import Image from "next/image";
-import ContactForm from "./form";
-import Experience from "./experience";
-import Banner from "./banner";
+import ContactForm from "@/components/form";
+import Experience from "@/components/experience";
+import Banner from "@/components/banner";
+import Chip from "@/components/chip";
 
 export default function Home() {
   return (
@@ -28,13 +29,33 @@ export default function Home() {
             </p>
             <br />
 
-            <p>
-              The majority of my work experience has entailed  languages like TypeScript, JavaScript, PHP and some python; JS frameworks such
-              as Next.js and Gatsby; libraries like React, Bootstrap, JQuery;
-              and CMS development - namely WordPress and Drupal. I love the
-              thrill and challenge of software development, especially when I
-              get to collaborate with smart people from around the world!
+
+
+
+    <div className="flex flex-wrap gap-2 pb-6">
+      <Chip label="TypeScript" />
+      <Chip label="JavaScript" />
+      <Chip label="Node.js" />
+      <Chip label="React" />
+      <Chip label="Drupal" />
+      <Chip label="Next.js" />
+      <Chip label="Gatsby" />
+      <Chip label="MongoDB" />
+      <Chip label="WordPress" />
+      <Chip label="Bootstrap" />
+      <Chip label="jQuery" />
+      <Chip label="some python" />
+      <Chip label="version control" />
+      <Chip label="Figma" />
+      <Chip label="Adobe XD" />
+      <Chip label="Logic & Reason" />
+    </div>
+
+
+              
+              <p>I love the challenge of software development, especially when I get to collaborate with smart people from around the world!
             </p>
+            
             <br />
 
             <p>
