@@ -1,9 +1,13 @@
 import Image from "next/image";
 import ContactForm from "./form";
 import Experience from "./experience";
+import Banner from "./banner";
 
 export default function Home() {
   return (
+    <div>
+
+        <Banner message={"Hey everyone! I am currently seeking a new role. Reach out via the form, LinkedIn, BlueSky or email."} />
     <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2  sm:items-start pb-8">
         <h1 className="text-4xl text-left font-mono font-bold">
@@ -25,22 +29,22 @@ export default function Home() {
             <br />
 
             <p>
-              The majority of my work experience relates to JS frameworks such
+              The majority of my work experience has entailed  languages like TypeScript, JavaScript, PHP and some python; JS frameworks such
               as Next.js and Gatsby; libraries like React, Bootstrap, JQuery;
               and CMS development - namely WordPress and Drupal. I love the
               thrill and challenge of software development, especially when I
-              get to collaborate with smart people from around the world.
+              get to collaborate with smart people from around the world!
             </p>
             <br />
 
             <p>
-              I also love dogs, traveling to new places and watching{" "}
+              I also love dogs, traveling to new places and managing my personal media server. I&#39;m obsessed with watching{" "}
               <a
                 className="underlined text-indigo-400"
                 href="https://watch.plex.tv/u/lincolnwisely"
                 target="_blank"
-              >
-                movies and shows.
+                >
+                movies and shows. 
               </a>
             </p>
           </div>
@@ -63,6 +67,7 @@ export default function Home() {
           <ContactForm />
         </div>
       </main>
+        </div>
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
@@ -70,7 +75,7 @@ export default function Home() {
           href="https://github.com/lincolnwisely/"
           target="_blank"
           rel="noopener noreferrer"
-        >
+          >
           <Image
             aria-hidden
             src="/img/github.png"
