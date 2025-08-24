@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function DesignPage() {
   return (
@@ -26,32 +26,32 @@ export default function DesignPage() {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
-                title: "Depression and Anxiety PSA",
+                title: 'Depression and Anxiety PSA',
                 description:
-                  "College assignment to create a PSA about depression and anxiety for a local mental health organization.",
-                src: "/img/gallery-depression.jpg",
+                  'College assignment to create a PSA about depression and anxiety for a local mental health organization.',
+                src: '/img/gallery-depression.jpg',
               },
               {
-                title: "Lincoln Mantra",
-                description: "Everyone needs a mantra. This is mine.",
-                src: "/img/gallery-lincoln.jpg",
+                title: 'Lincoln Mantra',
+                description: 'Everyone needs a mantra. This is mine.',
+                src: '/img/gallery-lincoln.jpg',
               },
               {
-                title: "Zurick",
+                title: 'Zurick',
                 description:
-                  "Restaurant concept - branding, advertising, menu and web design",
-                src: "/img/gallery-zurick.jpg",
+                  'Restaurant concept - branding, advertising, menu and web design',
+                src: '/img/gallery-zurick.jpg',
               },
               {
-                title: "Trioomphant Chocolate",
+                title: 'Trioomphant Chocolate',
                 description:
-                  "Concept, branding and package design for a fictional chocolate company.",
-                src: "/img/gallery-trioomphant.jpg",
+                  'Concept, branding and package design for a fictional chocolate company.',
+                src: '/img/gallery-trioomphant.jpg',
               },
               {
-                title: "Dumb infographic",
-                description: "Is this the most 2010 thing ever?",
-                src: "/img/gallery-info.jpg",
+                title: 'Dumb infographic',
+                description: 'Is this the most 2010 thing ever?',
+                src: '/img/gallery-info.jpg',
               },
             ].map((project, index) => (
               <div

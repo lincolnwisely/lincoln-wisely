@@ -3,7 +3,7 @@ export default function Banner() {
     <div className="bg-indigo-500 text-white w-screen flex justify-center">
       <h5 className="text-center p-2">
         Hey everyone! I am currently seeking a new role. Reach out via the
-        bottom form,{" "}
+        bottom form,{' '}
         <a
           className="underline"
           href="https://www.linkedin.com/in/lincolnwisely/"
@@ -12,7 +12,7 @@ export default function Banner() {
         >
           LinkedIn
         </a>
-        ,{" "}
+        ,{' '}
         <a
           className="underline"
           href="https://bsky.app/profile/lincolnwisely.com"
@@ -20,8 +20,8 @@ export default function Banner() {
           rel="noopener noreferrer"
         >
           BlueSky
-        </a>{" "}
-        or{" "}
+        </a>{' '}
+        or{' '}
         <a
           className="underline"
           href="mailto:lincolnwisely@gmail.com"

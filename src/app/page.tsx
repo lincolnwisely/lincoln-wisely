@@ -1,9 +1,9 @@
-import Image from "next/image";
-import ContactForm from "@/components/form";
-import Experience from "@/components/experience";
-import Banner from "@/components/banner";
-import Chip from "@/components/chip";
-import Eleanor from "@/components/eleanor";
+import Image from 'next/image';
+import ContactForm from '@/components/form';
+import Experience from '@/components/experience';
+import Banner from '@/components/banner';
+import Chip from '@/components/chip';
+import Eleanor from '@/components/eleanor';
 
 export default function Home() {
   return (
@@ -16,26 +16,31 @@ export default function Home() {
           </h1>
           <div className="flex flex-col-reverse lg:flex-row">
             <div className="w-full lg:w-1/2 lg:pr-8">
-              <p>Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
-                Missouri, USA.</p> 
-                <br/>           
-                <p>I have 9 years of combined experience as a web developer and software engineer, most recently using TypeScript and React. I have full-stack experience as well, and am building a MERN-stack e-commerce site in my free time to level up my backend skills.</p>
-
-          
-          
-
-            <br/>
-                <p>
-                I love dogs, traveling to new places and managing my
-                personal media server.
+              <p>
+                Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
+                Missouri, USA.
+              </p>
+              <br />
+              <p>
+                I have 9 years of combined experience as a web developer and
+                software engineer, most recently using TypeScript and React. I
+                have full-stack experience as well, and am building a MERN-stack
+                e-commerce site in my free time to level up my backend skills.
               </p>
 
-              <br/>
+              <br />
+              <p>
+                I love dogs, traveling to new places and managing my personal
+                media server.
+              </p>
 
-<h2 className="font-mono font-bold text-2xl">
-Languages, Frameworks, Libraries, Tools
-</h2>
-<br/>
+              <br />
+              <br />
+
+              <h2 className="font-mono font-bold text-2xl">
+                Languages, Frameworks, Libraries, Tools
+              </h2>
+              <br />
 
               <div className="flex flex-wrap gap-2 pb-6">
                 <Chip
@@ -54,16 +59,19 @@ Languages, Frameworks, Libraries, Tools
                 <Chip label="MongoDB" url="https://www.mongodb.com/" />
                 <Chip label="WordPress" url="https://wordpress.org/" />
                 <Chip label="Postman" url="https://www.postman.com/" />
-                <Chip label="git" url="https://git-scm.com"/>
+                <Chip label="git" url="https://git-scm.com" />
                 <Chip label="Bootstrap" url="https://getbootstrap.com/" />
                 <Chip label="jQuery" url="https://jquery.com/" />
                 <Chip label="a little python" url="https://www.python.org/" />
                 <Chip label="Figma" url="https://www.figma.com/" />
-                <Chip label="Claude Code" url="https://www.anthropic.com/claude-code"/>
+                <Chip
+                  label="Claude Code"
+                  url="https://www.anthropic.com/claude-code"
+                />
               </div>
             </div>
             <div className="w-full lg:w-1/2 rounded bg-indigo-500 bg-[url(/img/crooked.png)] bg-cover bg-center h-60 mb-10 lg:h-full"></div>
-            </div>
+          </div>
           <br />
 
           <div className="w-full mx-auto">

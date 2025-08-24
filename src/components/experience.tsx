@@ -1,5 +1,5 @@
-import Image from "next/image";
-import data from "../app/fixtures/data.json";
+import Image from 'next/image';
+import data from '../app/fixtures/data.json';
 
 interface Client {
   name: string;
@@ -48,14 +48,13 @@ export default function Experience() {
                       key={clientIndex}
                       className=" gap-2 m-2 text-sm flex justify-end"
                     >
-                          <Image
-                            src={client.logo}
-                            alt={`${client.name} logo`}
-                            width={80}
-                            height={50}
-                            className="object-contain"
-                          />
-                      
+                      <Image
+                        src={client.logo}
+                        alt={`${client.name} logo`}
+                        width={80}
+                        height={50}
+                        className="object-contain"
+                      />
                     </div>
                   ))}
                 </div>
