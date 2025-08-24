@@ -1,60 +1,58 @@
 {
-    "experience": [
+  "experience": [
+    {
+      "title": "Plex",
+      "description": "Initially developed features for Smart TV apps using Lightning JS; later transitioned to React Native, contributing to the internal BFF API, consuming other internal APIs to support the Plex app and keeping things tidy with integration tests.",
+      "logo": null,
+      "clients": [
         {
-            "title": "Plex",
-            "description": "Initially developed features for Smart TV apps using Lightning JS; later transitioned to React Native, contributing to the internal BFF API, consuming other internal APIs to support the Plex app and keeping things tidy with integration tests.",
-            "logo": null,
-            "clients": [
-                {
-                    "name": "Plex",
-                    "logo": "/img/plex.png"
-                }
-            ], 
-            "url": "https://www.plex.tv/"
-
+          "name": "Plex",
+          "logo": "/img/plex.png"
+        }
+      ],
+      "url": "https://www.plex.tv/"
+    },
+    {
+      "title": "HLK",
+      "description": "Custom web components for Marriott International properties, Equifax and Unigroup; WordPress support for Bayer, Winchester and additional clients. First foray into components and Design Systems.",
+      "logo": null,
+      "clients": [
+        {
+          "name": "Marriott International",
+          "logo": "/img/marriott-international.png"
         },
         {
-            "title": "HLK",
-            "description": "Custom web components for Marriott International properties, Equifax and Unigroup; WordPress support for Bayer, Winchester and additional clients. First foray into components and Design Systems.",    
-            "logo": null,
-            "clients": [
-                {
-                    "name": "Marriott International",
-                    "logo": "/img/marriott-international.png"
-                }, 
-                {
-                    "name": "Equifax",
-                    "logo": "/img/equifax.png"
-                },
-                {
-                    "name": "Unigroup",
-                    "logo": "/img/unigroup.png"
-                }
-            ], 
-            "url": "https://www.hlkagency.com"
-        }, 
+          "name": "Equifax",
+          "logo": "/img/equifax.png"
+        },
         {
-            "title": "Manifest",
-            "description": "Frontend Drupal development for CDW, University of Michigan Health Blog, The Paper and Packaging Board, Delta Faucet and Centene Corporation.",
-            "logo": null,
-            "clients": [
-                {
-                    "name": "CDW",
-                    "logo": "/img/cdw.png"
-                },
-    
-                {
-                    "name": "The Paper and Packaging Board",
-                    "logo": "/img/paper-packaging-board.png"
-                }, 
-                    
-                {
-                    "name": "University of Michigan Health blog",
-                    "logo": "/img/michigan-medicine.png"
-                }
-            ], 
-            "url": "https://www.manifest.com"
-
+          "name": "Unigroup",
+          "logo": "/img/unigroup.png"
         }
-    ]
+      ],
+      "url": "https://www.hlkagency.com"
+    },
+    {
+      "title": "Manifest",
+      "description": "Frontend Drupal development for CDW, University of Michigan Health Blog, The Paper and Packaging Board, Delta Faucet and Centene Corporation.",
+      "logo": null,
+      "clients": [
+        {
+          "name": "CDW",
+          "logo": "/img/cdw.png"
+        },
+
+        {
+          "name": "The Paper and Packaging Board",
+          "logo": "/img/paper-packaging-board.png"
+        },
+
+        {
+          "name": "University of Michigan Health blog",
+          "logo": "/img/michigan-medicine.png"
+        }
+      ],
+      "url": "https://www.manifest.com"
+    }
+  ]
 }
