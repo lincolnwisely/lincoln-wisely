@@ -16,18 +16,26 @@ export default function Home() {
           </h1>
           <div className="flex flex-col-reverse lg:flex-row">
             <div className="w-full lg:w-1/2 lg:pr-8">
-              <p>
-                Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
-                Missouri, USA. I use she/her pronouns.
-              </p>
-              <br />
+              <p>Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
+                Missouri, USA.</p> 
+                <br/>           
+                <p>I have 9 years of combined experience as a web developer and software engineer, most recently using TypeScript and React. I have full-stack experience as well, and am building a MERN-stack e-commerce site in my free time to level up my backend skills.</p>
 
-              <p>
-                I am really proud of and grateful for the work I have
-                contributed in my career thus far. That said, I still have a lot
-                to learn and a lot of room to grow.
+          
+          
+
+            <br/>
+                <p>
+                I love dogs, traveling to new places and managing my
+                personal media server.
               </p>
-              <br />
+
+              <br/>
+
+<h2 className="font-mono font-bold text-2xl">
+Languages, Frameworks, Libraries, Tools
+</h2>
+<br/>
 
               <div className="flex flex-wrap gap-2 pb-6">
                 <Chip
@@ -45,26 +53,17 @@ export default function Home() {
                 <Chip label="Gatsby" url="https://www.gatsbyjs.com/" />
                 <Chip label="MongoDB" url="https://www.mongodb.com/" />
                 <Chip label="WordPress" url="https://wordpress.org/" />
+                <Chip label="Postman" url="https://www.postman.com/" />
+                <Chip label="git" url="https://git-scm.com"/>
                 <Chip label="Bootstrap" url="https://getbootstrap.com/" />
                 <Chip label="jQuery" url="https://jquery.com/" />
                 <Chip label="a little python" url="https://www.python.org/" />
                 <Chip label="Figma" url="https://www.figma.com/" />
+                <Chip label="Claude Code" url="https://www.anthropic.com/claude-code"/>
               </div>
-
-              <p>
-                I love the challenge of software development, especially when I
-                get to collaborate with smart people from around the world!
-              </p>
-
-              <br />
-
-              <p>
-                I also love dogs, traveling to new places and managing my
-                personal media server.
-              </p>
             </div>
-            <div className="w-full lg:w-1/2 rounded bg-indigo-500 bg-[url(/img/lincoln.jpg)] bg-blend-multiply bg-cover bg-center h-60 mb-10 lg:h-full"></div>
-          </div>
+            <div className="w-full lg:w-1/2 rounded bg-indigo-500 bg-[url(/img/crooked.png)] bg-cover bg-center h-60 mb-10 lg:h-full"></div>
+            </div>
           <br />
 
           <div className="w-full mx-auto">
