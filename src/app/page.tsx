@@ -24,7 +24,7 @@ export default function Home() {
               <p>
                 I have 9 years of combined experience as a web developer and
                 software engineer, most recently using TypeScript and React. I
-                have full-stack experience as well, and am building a
+                have full-stack experience as well, and am building a &nbsp;
                 <a
                   href="https://sw-jewelry-client.vercel.app"
                   className="text-indigo-400"
@@ -32,8 +32,9 @@ export default function Home() {
                   rel="nofollow noopen"
                 >
                   MERN-stack e-commerce site
-                </a>{' '}
-                for my mom&#39;s jewelry business to level up my backend skills.
+                </a>
+                &nbsp;for my mom&#39;s jewelry business to level up my backend
+                skills.
               </p>
 
               <br />
