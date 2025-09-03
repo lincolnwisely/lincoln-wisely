@@ -92,7 +92,7 @@ export default function Home() {
           </div>
           <br />
 
-          <div className="w-full">
+          <div className="w-full hidden md:block">
             <h2 className="font-mono font-bold text-2xl">
               Wise words from a baddie
             </h2>
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
           <br />
 
-          <div className="w-full">
+          <div className="w-full" id="form">
             <h2 className="font-mono font-bold text-2xl">Contact me</h2>
             <br />
             <ContactForm />
