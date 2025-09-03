@@ -15,7 +15,7 @@ const leQuotes: quote[] = [
     author: "Beverly Cleary"
   },
     {
-    message: `And all the petty shit aside\nAll the funny shit aside\nI just want what's mine.`, 
+    message: `And all the petty shit aside\nAll the phony shit aside\nI just want what's mine.`, 
     author: "SZA"
   }, 
   {
@@ -54,27 +54,27 @@ export default function Quote() {
   };
 
   return (
-    <div>
 
-    <div className="flex justify-between items-center mb-2 text-indigo">
-        <button onClick={prevQuote} className="text-indigo hover:text-indigo-200 text-2xl">
+
+    <div className="flex flex-column justify-between h-40">
+      
+         <button onClick={prevQuote} className="text-indigo hover:text-indigo-200 text-1xl m-2  ">
           ←
         </button>
-        {/* <span className="text-indigo text-sm">
-          {currentIndex + 1} / {leQuotes.length}
-        </span> */}
-        <button onClick={nextQuote} className="text-indigo hover:text-indigo-200 text-2xl">
-          →
-        </button>
-      </div>
-    <div className="flex flex-col gap-2 rounded-lg bg-indigo-500 p-4">
+    <div className="flex flex-auto justify-center flex-col gap-2 rounded-lg bg-indigo-500 p-4">
+  
+
       <blockquote className="mt-4 pl-4 border-l-3 border-white text-lg whitespace-pre-wrap">
         &quot;{currentQuote.message}&quot;
       </blockquote>
       <p className="text-right font-bold font-mono text-xl">
         - {currentQuote.author}
       </p>
+    
     </div>
+            <button onClick={nextQuote} className="flex-none text-indigo hover:text-indigo-200 text-xl m-4">
+          →
+        </button>
     </div>
   );
 }
