@@ -3,7 +3,7 @@ import ContactForm from '@/components/form';
 import Experience from '@/components/experience';
 import Banner from '@/components/banner';
 import Chip from '@/components/chip';
-import Eleanor from '@/components/eleanor';
+import Quotes from '@/components/quotes';
 
 export default function Home() {
   return (
@@ -88,7 +88,7 @@ export default function Home() {
               Wise words from a baddie
             </h2>
             <br />
-            <Eleanor />
+            <Quotes />
           </div>
           <br />
 
