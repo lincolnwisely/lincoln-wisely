@@ -6,7 +6,7 @@ export default function Banner() {
       {' '}
                 <a
           className="underline"
-          href="hhttps://lincolnwisely.com#form"
+          href="https://lincolnwisely.com#form"
           target="_blank"
           rel="noopener noreferrer"
         >

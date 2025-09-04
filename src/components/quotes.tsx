@@ -42,39 +42,43 @@ const leQuotes: quote[] = [
 import { useState } from 'react';
 
 export default function Quote() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const currentQuote = leQuotes[currentIndex];
+  // const [currentIndex, setCurrentIndex] = useState(0);
+  // const currentQuote = leQuotes[currentIndex];
 
-  const nextQuote = () => {
-    setCurrentIndex((prev) => (prev + 1) % leQuotes.length);
-  };
+  // const nextQuote = () => {
+  //   setCurrentIndex((prev) => (prev + 1) % leQuotes.length);
+  // };
 
-  const prevQuote = () => {
-    setCurrentIndex((prev) => (prev - 1 + leQuotes.length) % leQuotes.length);
-  };
+  // const prevQuote = () => {
+  //   setCurrentIndex((prev) => (prev - 1 + leQuotes.length) % leQuotes.length);
+  // };
 
   return (
 
-
-    <div className="flex flex-column justify-between h-40">
+    <div className="flex flex-column">
       
-         <button onClick={prevQuote} className="text-indigo hover:text-indigo-200 text-1xl m-2  ">
+         {/* <button onClick={prevQuote} className="text-indigo hover:text-indigo-200 text-1xl">
           ←
-        </button>
-    <div className="flex flex-auto justify-center flex-col gap-2 rounded-lg bg-indigo-500 p-4">
+        </button> */}
+    <div className="p-4 rounded-lg bg-indigo-500 h-full">
   
 
       <blockquote className="mt-4 pl-4 border-l-3 border-white text-lg whitespace-pre-wrap">
-        &quot;{currentQuote.message}&quot;
+        &quot;{leQuotes[0].message}&quot;
       </blockquote>
-      <p className="text-right font-bold font-mono text-xl">
-        - {currentQuote.author}
+      
+      
+      <div className="flex flex-row justify-end">
+      <p className="text-right font-bold font-mono text-xl p-4">
+        - {leQuotes[0].author}
       </p>
-    
-    </div>
-            <button onClick={nextQuote} className="flex-none text-indigo hover:text-indigo-200 text-xl m-4">
+             {/* <button onClick={nextQuote} className="flex-none text-indigo hover:text-indigo-200 text-xl">
           →
-        </button>
+        </button> */}
+      </div>
+    
+     
+    </div>
     </div>
   );
 }
