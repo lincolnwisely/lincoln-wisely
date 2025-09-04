@@ -26,7 +26,7 @@ export default function Home() {
                 software engineer, most recently using TypeScript and React. I
                 have full-stack experience as well, and am building a &nbsp;
                 <a
-                  href="https://sw-jewelry-client.vercel.app"
+                  href="https://github.com/lincolnwisely/sw_jewelry"
                   className="text-indigo-400"
                   target="_blank"
                   rel="nofollow noopen"
