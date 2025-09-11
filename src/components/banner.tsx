@@ -2,14 +2,13 @@ export default function Banner() {
   return (
     <div className="bg-indigo-500 text-white w-screen flex justify-center">
       <h5 className="text-center p-2">
-        Hey everyone! I am currently seeking a new role. Reach out via the
-      {' '}
-                <a
+        Hey everyone! I am currently seeking a new role. Reach out via the{' '}
+        <a
           className="underline"
           href="https://lincolnwisely.com#form"
           rel="noopener noreferrer"
         >
-         contact form
+          contact form
         </a>
         ,{' '}
         <a
@@ -23,11 +22,11 @@ export default function Banner() {
         ,{' '}
         <a
           className="underline"
-          href="https://bsky.app/profile/lincolnwisely.com"
+          href="https://x.com/lincolnwisely"
           target="_blank"
           rel="noopener noreferrer"
         >
-          BlueSky
+          Twitter
         </a>{' '}
         or{' '}
         <a

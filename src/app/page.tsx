@@ -4,6 +4,7 @@ import Experience from '@/components/experience';
 import Banner from '@/components/banner';
 import Chip from '@/components/chip';
 import Quotes from '@/components/quotes';
+import Projects from '@/components/projects';
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
           <h1 className="text-4xl text-left font-mono font-bold">
             Lincoln Wisely
           </h1>
-          <div className="flex flex-col-reverse lg:flex-row">
+          <div className="flex flex-col-reverse lg:flex-row font-medium">
             <div className="w-full lg:w-1/2 lg:pr-8">
               <p>
                 Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
@@ -27,14 +28,13 @@ export default function Home() {
                 have full-stack experience as well, and am building a &nbsp;
                 <a
                   href="https://github.com/lincolnwisely/sw_jewelry"
-                  className="text-indigo-400"
+                  className="text-lime-300"
                   target="_blank"
                   rel="nofollow noopen"
                 >
                   MERN-stack e-commerce site
-                </a>
-                &nbsp;for my mom&#39;s jewelry business to level up my backend
-                skills.
+                </a>{' '}
+                to level up my backend skills.
               </p>
 
               <br />
@@ -85,10 +85,17 @@ export default function Home() {
 
           <div className="w-full mx-auto">
             <h2 className="font-mono font-bold text-2xl">
-              Most recent experience
+              Recent work experience
             </h2>
             <br />
             <Experience />
+          </div>
+          <br />
+
+          <div className="w-full">
+            <h2 className="font-mono font-bold text-2xl">Personal projects</h2>
+            <br />
+            <Projects />
           </div>
           <br />
 
@@ -139,6 +146,20 @@ export default function Home() {
             height={20}
           />
           LinkedIn
+        </a>
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="/lincoln_wisely_resume.pdf"
+          download="lincoln_wisely_resume.pdf"
+        >
+          <Image
+            aria-hidden
+            src="/img/file.png"
+            alt="resume icon"
+            width={15}
+            height={15}
+          />
+          Resume
         </a>
       </footer>
     </div>
