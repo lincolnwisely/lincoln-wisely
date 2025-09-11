@@ -1,6 +1,6 @@
 export default function HomeVideos() {
   return (
-    <div className="font-medium w-full lg:w-1/2 mr-8">
+    <div className="font-medium w-full lg:w-1/2 lg:pr-8">
       <h2 className="font-bold text-xl text-lime-300">
         Digitizing Home Videos
       </h2>
