@@ -1,17 +1,25 @@
 export default function SharonWisely() {
   return (
     <div className="font-medium w-full lg:w-1/2 lg:pr-8">
-      <h2 className="font-bold text-xl text-lime-300">Sharon Wisely Jewelry</h2>
+      <div className="flex flex-row">
+        <h2 className="font-bold text-xl text-lime-300 mr-4">
+          Sharon Wisely Jewelry
+        </h2>
+        <span className="inline-flex items-center rounded-md bg-yellow-400/10 px-2 py-1 text-xs font-medium text--400 inset-ring inset-ring-yellow-400/20">
+          In-Progress
+        </span>
+      </div>
       <p>
-        Full-stack e-commerce site for my mom to replace her use of Etsy, which
-        has an unreliable algorithm and high operations costs.{' '}
+        I decided to build a site that can replace my mom&#39;s use of Etsy,
+        which has an unreliable algorithm and high operations costs. Follow
+        along{' '}
         <a
           href="https://sw-jewelry-client.vercel.app/"
           className="underline text-lime-300"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Still in progress
+          here
         </a>
         .
       </p>
@@ -20,8 +28,8 @@ export default function SharonWisely() {
           Built with MongoDB, Express, React, and Node.js
         </li>
         <li className="pb-4">
-          To feature user authentication, product management, user auth with JWT
-          tokens, account management and Stripe payments integration
+          Features user authentication w/ JWT tokens, product management and
+          Stripe payments integration
         </li>
         <li className="pb-4">
           CI/CD pipeline for simplified deployments on{' '}

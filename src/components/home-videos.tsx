@@ -1,9 +1,14 @@
 export default function HomeVideos() {
   return (
     <div className="font-medium w-full lg:w-1/2 lg:pr-8">
-      <h2 className="font-bold text-xl text-lime-300">
-        Digitizing Home Videos
-      </h2>
+      <div className="flex flex-row">
+        <h2 className="font-bold text-xl text-lime-300 mr-4">
+          Digitizing Home Videos
+        </h2>
+        <span className="inline-flex items-center rounded-md bg-yellow-400/10 px-2 py-1 text-xs font-medium text--400 inset-ring inset-ring-yellow-400/20">
+          In-Progress
+        </span>
+      </div>
       <p>
         As the self-proclaimed Family Historian, I have embarked on the
         non-ending, but greatly rewarding, project of digitizing and hosting our
@@ -43,7 +48,8 @@ export default function HomeVideos() {
           </a>
           to embed a <code className="text-lime-200">chapters.txt</code> file
           into the <code className="text-lime-200">.mkv</code> video file. (If
-          anyone knows of a tool to automate that, hit me up.)
+          anyone knows of a tool to automate generating{' '}
+          <code className="text-lime-200">chapters.txt</code>, hit me up.)
         </li>
         <li className="pb-4">
           I host all of the files on my media server at my house and manage it
