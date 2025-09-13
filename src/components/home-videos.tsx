@@ -11,7 +11,7 @@ export default function HomeVideos() {
       </div>
       <p>
         As the self-proclaimed Family Historian, I have embarked on the
-        non-ending, but greatly rewarding, project of digitizing and hosting our
+        greatly rewarding task of digitizing and hosting our
         home videos.
       </p>
       <div className="p-8 font-medium">
@@ -42,14 +42,13 @@ export default function HomeVideos() {
             className="underline text-lime-300"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://mkvtoolnix.download/doc/mkvmerge.html"
+            href="https://linux.die.net/man/1/mkvmerge"
           >
-            mkvmerge{' '}
+            mkvmerge cli tool{' '}
           </a>
           to embed a <code className="text-lime-200">chapters.txt</code> file
           into the <code className="text-lime-200">.mkv</code> video file. (If
-          anyone knows of a tool to automate generating{' '}
-          <code className="text-lime-200">chapters.txt</code>, hit me up.)
+          anyone knows of a tool for generating chapter timestamps, hit me up.)
         </li>
         <li className="pb-4">
           I host all of the files on my media server at my house and manage it
@@ -62,10 +61,6 @@ export default function HomeVideos() {
           >
             Unraid OS.
           </a>
-        </li>
-        <li className="pb-4">
-          This makes the videos available to safely stream from any device with
-          Plex.
         </li>
       </div>
     </div>

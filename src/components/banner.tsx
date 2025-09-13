@@ -26,7 +26,7 @@ export default function Banner() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Twitter
+          X (formerly Twitter)
         </a>{' '}
         or{' '}
         <a
