@@ -4,7 +4,7 @@ export default function SharonWisely() {
   return (
     <div className="font-medium w-full lg:w-1/2 lg:pr-8 flex-1">
       <div className="flex flex-col h-full border rounded-lg overflow-hidden">
-        <div className="flex-grow">
+        <div>
 
     <Image className="object-cover" src={'/img/swj.png'}
           width={300}
