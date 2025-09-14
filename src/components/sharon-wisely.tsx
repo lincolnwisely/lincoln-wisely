@@ -1,21 +1,36 @@
+import Image from 'next/image';
+
 export default function SharonWisely() {
   return (
-    <div className="font-medium w-full lg:w-1/2 lg:pr-8">
-      <div className="flex flex-row">
-        <h2 className="font-bold text-xl text-lime-300 mr-4">
+    <div className="font-medium w-full lg:w-1/2 lg:pr-8 flex-1">
+      <div className="flex flex-col h-full">
+        <div className="border flex-grow">
+
+    <Image className="object-cover" src={'/img/swj.png'}
+          width={300}
+          height={300}
+          layout='responsive'
+          alt="screenshot of Sharon Wisely Jewelry"
+          />
+                          </div>
+
+          <div className="border p-4">
+
+                           
+        <h2 className="font-bold text-xl text-lime-200 mr-4">
           Sharon Wisely Jewelry
         </h2>
         <span className="inline-flex items-center rounded-md bg-yellow-400/10 px-2 py-1 text-xs font-medium text--400 inset-ring inset-ring-yellow-400/20">
           In-Progress
         </span>
-      </div>
+   
       <p>
-        I decided to build a site that can replace my mom&#39;s use of Etsy,
-        which has an unreliable algorithm and high operations costs. Follow
+        This will replace my mom&#39;s use of Etsy,
+        which has an unreliable algorithm and is a shitty company in general (my words). Follow
         along{' '}
         <a
           href="https://sw-jewelry-client.vercel.app/"
-          className="underline text-lime-300"
+          className="underline text-lime-200"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -25,27 +40,19 @@ export default function SharonWisely() {
       </p>
       <div className="p-8 font-medium">
         <li className="pb-4">
-          Built with MongoDB, Express, React, and Node.js
+          Built with MongoDB, Express, React, and Node.js (and with Claude Code assistance)
         </li>
         <li className="pb-4">
-          Features user authentication w/ JWT tokens, product management and
+         User authentication w/ JWT tokens, product management and
           Stripe payments integration
         </li>
         <li className="pb-4">
-          CI/CD pipeline for simplified deployments on{' '}
-          <a
-            className="underline text-lime-300"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://vercel.com"
-          >
-            Vercel
-          </a>
+          CI/CD pipeline for simplified deployments
         </li>
         <li className="pb-4">
           Custom RESTful API deployed on{' '}
           <a
-            className="underline text-lime-300"
+            className="underline text-lime-200"
             target="_blank"
             rel="noopener noreferrer"
             href="https://fly.io"
@@ -53,10 +60,9 @@ export default function SharonWisely() {
             Fly.io
           </a>
         </li>
-        <li className="pb-4">
-          Claude Code for road map and development assistance
-        </li>
-        <li className="pb-4">Mother-daughter bonding 💕</li>
+        <li>Mother-daughter bonding 💕</li>
+            </div>
+            </div>
       </div>
     </div>
   );

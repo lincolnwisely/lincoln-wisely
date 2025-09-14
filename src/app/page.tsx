@@ -28,7 +28,7 @@ export default function Home() {
                 have full-stack experience as well, and am building a &nbsp;
                 <a
                   href="https://github.com/lincolnwisely/sw_jewelry"
-                  className="text-lime-300"
+                  className="text-lime-200"
                   target="_blank"
                   rel="nofollow noopen"
                 >
