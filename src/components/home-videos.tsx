@@ -3,8 +3,8 @@ import Image from 'next/image';
 export default function HomeVideos() {
   return (
     <div className="font-medium w-full lg:w-1/2 lg:pr-8 flex-1">
-      <div className="flex flex-col h-full">
-        <div className="border flex-grow">
+      <div className="flex flex-col h-full border rounded-lg overflow-hidden">
+        <div className="flex-grow">
 
         <Image className="object-cover" src={'/img/editing.png'}
           width={300}
@@ -15,7 +15,7 @@ export default function HomeVideos() {
           </div>
 
 
-          <div className="border p-4">
+          <div className="p-4">
 
         <h2 className="font-bold text-xl text-lime-200">
           Digitizing Home Videos
