@@ -27,14 +27,14 @@ export default function SharonWisely() {
       <p>
         This will replace my mom&#39;s use of Etsy,
         which has an unreliable algorithm and is a shitty company in general (my words). Follow
-        along{' '}
+        along at{' '}
         <a
-          href="https://sw-jewelry-client.vercel.app/"
+          href="https://sharonwisely.com"
           className="underline text-lime-200"
           target="_blank"
           rel="noopener noreferrer"
         >
-          here
+          sharonwisely.com
         </a>
         .
       </p>

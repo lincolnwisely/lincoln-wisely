@@ -161,6 +161,22 @@ export default function Home() {
           />
           Resume
         </a>
+        <a
+                  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+
+          href="https://www.youtube.com/@lwisely/videos"
+                    target="_blank"
+          rel="noopener noreferrer"
+        >       
+         <Image
+            aria-hidden
+            src="/img/youtube.png"
+            alt="youtube icon"
+            width={22}
+            height={22}
+          />
+Youtube
+        </a>
       </footer>
     </div>
   );
