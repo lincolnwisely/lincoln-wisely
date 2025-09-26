@@ -25,8 +25,7 @@ export default function SharonWisely() {
         </span>
    
       <p>
-        This will replace my mom&#39;s use of Etsy,
-        which has an unreliable algorithm and is a shitty company in general (my words). Follow
+        This will replace my mom&#39;s use of Etsy, which has declined in quality over the years. Follow
         along at{' '}
         <a
           href="https://sharonwisely.com"
