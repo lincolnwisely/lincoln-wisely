@@ -1,10 +1,12 @@
 import Image from 'next/image';
+import Chip from './chip';
 import data from '../app/fixtures/data.json';
-
+import { Chip as tChip } from '@/app/fixtures/types';
 interface Client {
   name: string;
   logo: string;
 }
+
 
 interface ExperienceItem {
   title: string;
@@ -12,6 +14,7 @@ interface ExperienceItem {
   logo: string | null;
   clients: Client[];
   url: string;
+  chips: tChip[];
 }
 
 export default function Experience() {
@@ -23,7 +26,7 @@ export default function Experience() {
         {experience.map((item: ExperienceItem, index: number) => (
           <div
             key={index}
-            className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
+            className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow flex flex-col justify-around"
           >
             {/* Company Header */}
             <div className="flex items-center gap-3 mb-4">
@@ -41,8 +44,8 @@ export default function Experience() {
 
             {/* Logos  */}
             {item.clients && item.clients.length > 0 && (
-              <div className="flex justify-center">
-                <div className="space-y-2 flex">
+              <div className="flex justify-center  pb-5">
+                <div className="flex">
                   {item.clients.map((client: Client, clientIndex: number) => (
                     <div
                       key={clientIndex}
@@ -60,6 +63,27 @@ export default function Experience() {
                 </div>
               </div>
             )}
+
+            {/* Chips  */}
+            {item.chips && item.chips.length > 0 && (
+              <div className="flex flex-wrap gap-1">
+                {item.chips.map((chip: tChip, chipIndex: number) => (
+                  <div
+                    key={chipIndex}
+                  >
+                    <Chip
+                      label={chip.label}
+                      url={chip.url}
+                      color='bg-indigo-400'
+                      hoverColor='bg-indigo-600'
+                    />
+                  </div>
+                ))}
+              </div>
+            )}
+
+
+
           </div>
         ))}
       </div>

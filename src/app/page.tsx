@@ -2,7 +2,6 @@ import Image from 'next/image';
 import ContactForm from '@/components/form';
 import Experience from '@/components/experience';
 import Banner from '@/components/banner';
-import Chip from '@/components/chip';
 import Quotes from '@/components/quotes';
 import Projects from '@/components/projects';
 
@@ -11,12 +10,14 @@ export default function Home() {
     <div>
       <Banner />
       <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
-        <main className="flex flex-col gap-[32px] row-start-2  sm:items-start pb-8">
-          <h1 className="text-4xl text-left font-mono font-bold">
-            Lincoln Wisely
-          </h1>
-          <div className="flex flex-col-reverse lg:flex-row font-medium">
-            <div className="w-full lg:w-1/2 lg:pr-8">
+        <main className="flex flex-col gap-[32px] row-start-2  sm:items-start">
+
+          <div className="flex flex-col-reverse lg:flex-row justify-center font-medium">
+
+            <div className="w-full lg:pr-8 flex-center">
+              <h1 className="text-4xl text-left font-mono font-bold pb-8">
+                Lincoln Wisely
+              </h1>
               <p>
                 Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
                 Missouri, USA.
@@ -42,44 +43,7 @@ export default function Home() {
                 I love dogs, traveling to new places and managing my personal
                 media server.
               </p>
-
-              <br />
-              <br />
-
-              <h2 className="font-mono font-bold text-2xl">
-                Languages, Frameworks, Libraries, Tools
-              </h2>
-              <br />
-
-              <div className="flex flex-wrap gap-2 pb-6">
-                <Chip
-                  label="TypeScript"
-                  url="https://www.typescriptlang.org/"
-                />
-                <Chip
-                  label="JavaScript"
-                  url="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                />
-                <Chip label="Node.js" url="https://nodejs.org/en" />
-                <Chip label="React" url="https://react.dev/" />
-                <Chip label="Drupal" url="https://www.drupal.org/" />
-                <Chip label="Next.js" url="https://nextjs.org/" />
-                <Chip label="Gatsby" url="https://www.gatsbyjs.com/" />
-                <Chip label="MongoDB" url="https://www.mongodb.com/" />
-                <Chip label="WordPress" url="https://wordpress.org/" />
-                <Chip label="Postman" url="https://www.postman.com/" />
-                <Chip label="git" url="https://git-scm.com" />
-                <Chip label="Bootstrap" url="https://getbootstrap.com/" />
-                <Chip label="jQuery" url="https://jquery.com/" />
-                <Chip label="a little python" url="https://www.python.org/" />
-                <Chip label="Figma" url="https://www.figma.com/" />
-                <Chip
-                  label="Claude Code"
-                  url="https://www.anthropic.com/claude-code"
-                />
-              </div>
             </div>
-            <div className="w-full lg:w-1/2 rounded bg-indigo-500 bg-[url(/img/crooked.png)] bg-cover bg-center h-60 mb-10 lg:h-full"></div>
           </div>
           <br />
 
@@ -162,20 +126,20 @@ export default function Home() {
           Resume
         </a>
         <a
-                  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
 
           href="https://www.youtube.com/@lwisely/videos"
-                    target="_blank"
+          target="_blank"
           rel="noopener noreferrer"
-        >       
-         <Image
+        >
+          <Image
             aria-hidden
             src="/img/youtube.png"
             alt="youtube icon"
             width={22}
             height={22}
           />
-Youtube
+          Youtube
         </a>
       </footer>
     </div>

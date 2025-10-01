@@ -6,8 +6,8 @@ export default function Projects() {
     <div className="flex flex-col lg:flex-row items-stretch">
       <HomeVideos />
       <div className="block lg:hidden">
-        <br/>
-        </div>
+        <br />
+      </div>
       <SharonWisely />
     </div>
   );

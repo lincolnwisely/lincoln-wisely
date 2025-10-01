@@ -1,0 +1,28 @@
+{
+    "chips": [
+  {
+          "label": "TypeScript", 
+          "url": "https://www.typescriptlang.org/"
+        }, 
+        {
+                      "label":"ClearClick",
+                  "url":"https://www.clearclick.com/products/video-to-usb-audio-video-capture-live-streaming-device"
+        }, 
+
+        {       "label":"OBS Studio",
+                  "url": "https://obsproject.com/"
+            },
+                    {       "label":"MkvMerge cli",
+                  "url": "https://linux.die.net/man/1/mkvmerge"
+            },
+                     {       "label":"Unraid",
+                  "url": "https://unraid.net/"
+            },
+                     {       "label":"Plex",
+                  "url": "https://www.plex.tv/personal-media-server/"
+            },
+       
+            {"label": "Github Actions CI/CD", 
+        "url": "https://github.com/features/actions"}
+    ]
+}

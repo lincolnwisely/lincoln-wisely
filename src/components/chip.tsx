@@ -1,6 +1,6 @@
-export default function Chip({ label, url }: { label: string; url: string }) {
+export default function Chip({ label, url, color = 'bg-indigo-400', hoverColor = 'bg-indigo-500', textSize = "text-xs" }: { label: string; url: string, color?: string, hoverColor?: string; textSize?: string }) {
   return (
-    <div className="flex items-center bg-indigo-500 text-white text-sm font-medium px-2.5 py-0.5 rounded-sm hover:bg-indigo-600">
+    <div className={`flex items-center ${color} text-white ${textSize} font-medium px-2.5 py-0.5 rounded-full hover:${hoverColor}`}>
       <a href={url} target="_blank" rel="noopener noreferrer">
         {label}
       </a>

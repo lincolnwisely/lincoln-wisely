@@ -10,7 +10,29 @@
           "logo": "/img/plex.png"
         }
       ],
-      "url": "https://www.plex.tv/"
+      "url": "https://www.plex.tv/", 
+         "chips": [
+        {
+          "label": "TypeScript", 
+          "url": "https://www.typescriptlang.org/"
+        }, 
+             {
+             "label": "React Native", 
+          "url": "https://reactnative.dev/"
+        }, 
+        {
+          "label": "BFF REST API", 
+          "url": "hhttps://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends"
+        }, 
+    {
+          "label": "Vitest", 
+          "url": "https://vitest.dev/"
+        }, 
+            {
+        "label": "Figma", 
+          "url": "https://www.figma.com/"
+        }           
+      ]
     },
     {
       "title": "HLK",
@@ -30,7 +52,34 @@
           "logo": "/img/unigroup.png"
         }
       ],
-      "url": "https://www.hlkagency.com"
+      "url": "https://www.hlkagency.com", 
+      "chips": [
+        {
+          "label": "Web Components", 
+          "url": "https://stenciljs.com/"
+        }, 
+             {
+             "label": "WP", 
+          "url": "https://wordpress.org/"
+        }, 
+        {
+          "label": "React", 
+          "url": "https://react.dev/"
+        }, 
+    {
+          "label": "a little python", 
+          "url": "https://www.python.org/"
+        }, 
+        {
+        "label": "Next.js", 
+          "url": "https://nextjs.org/"
+        }, 
+            {
+        "label": "Sketch", 
+          "url": "https://www.sketch.com/prototype/"
+        }              
+
+      ]
     },
     {
       "title": "Manifest",
@@ -52,7 +101,30 @@
           "logo": "/img/michigan-medicine.png"
         }
       ],
-      "url": "https://www.manifest.com"
+      "url": "https://www.manifest.com", 
+               "chips": [
+        {
+          "label": "Drupal", 
+          "url": "https://drupal.org"
+        }, 
+             {
+             "label": "MySql", 
+          "url": "mysql.com"
+        }, 
+        {
+          "label": "JavaScript", 
+          "url": "https://react.dev/"
+        }, 
+    {
+          "label": "jQuery", 
+          "url": "https://jquery.com/"
+        }, 
+            {
+        "label": "Google Maps", 
+          "url": "https://developers.google.com/maps"
+        }           
+
+      ]
     }
   ]
 }

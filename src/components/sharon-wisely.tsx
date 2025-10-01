@@ -1,4 +1,8 @@
 import Image from 'next/image';
+import Chip from './chip';
+import mern_chips from '../app/fixtures/mern_chips.json'
+import { Chip as tChip } from '@/app/fixtures/types';
+
 
 export default function SharonWisely() {
   return (
@@ -6,62 +10,84 @@ export default function SharonWisely() {
       <div className="flex flex-col h-full border rounded-lg overflow-hidden">
         <div>
 
-    <Image className="object-cover" src={'/img/swj.png'}
-          width={300}
-          height={300}
-          layout='responsive'
-          alt="screenshot of Sharon Wisely Jewelry"
+          <Image className="object-cover" src={'/img/swj.png'}
+            width={300}
+            height={300}
+            layout='responsive'
+            alt="screenshot of Sharon Wisely Jewelry"
           />
-                          </div>
+        </div>
 
-          <div className="p-4">
+        <div className="p-4">
+          <div className="p-4 font-medium">
+            <h2 className="font-bold text-xl text-lime-200 mr-4">
+              Sharon Wisely Jewelry
+              <span className="inline-flex items-center rounded-md bg-yellow-400/10 px-2 ml-4 py-1 text-xs font-medium text--400 inset-ring inset-ring-yellow-400/20">
+                In-Progress
+              </span>
+            </h2>
+            <br />
 
-                           
-        <h2 className="font-bold text-xl text-lime-200 mr-4">
-          Sharon Wisely Jewelry
-        </h2>
-        <span className="inline-flex items-center rounded-md bg-yellow-400/10 px-2 py-1 text-xs font-medium text--400 inset-ring inset-ring-yellow-400/20">
-          In-Progress
-        </span>
-   
-      <p>
-        This will replace my mom&#39;s use of Etsy, which has declined in quality over the years. Follow
-        along at{' '}
-        <a
-          href="https://sharonwisely.com"
-          className="underline text-lime-200"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          sharonwisely.com
-        </a>
-        .
-      </p>
-      <div className="p-8 font-medium">
-        <li className="pb-4">
-          Built with MongoDB, Express, React, and Node.js (and with Claude Code assistance)
-        </li>
-        <li className="pb-4">
-         User authentication w/ JWT tokens, product management and
-          Stripe payments integration
-        </li>
-        <li className="pb-4">
-          CI/CD pipeline for simplified deployments
-        </li>
-        <li className="pb-4">
-          Custom RESTful API deployed on{' '}
-          <a
-            className="underline text-lime-200"
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://fly.io"
-          >
-            Fly.io
-          </a>
-        </li>
-        <li>Mother-daughter bonding 💕</li>
+            <p>This will replace my mom&#39;s use of Etsy, which has declined in quality over the years. Built with MongoDB, Express, React, and Node.js.</p>
+            <br />
+            <p>Features user authentication w/ JWT tokens, product management and Stripe payments integration.</p>
+            <br />
+
+            <br />
+
+            {/* Chips  */}
+            {mern_chips.chips && mern_chips.chips.length > 0 && (
+              <div className="flex flex-wrap gap-2 pb-8">
+                {mern_chips.chips.map((chip: tChip, chipIndex: number) => (
+                  <div
+                    key={chipIndex}
+                  >
+                    <Chip
+                      label={chip.label}
+                      url={chip.url}
+                      color='bg-lime-800'
+                      hoverColor='bg-lime-900'
+                      textSize='s'
+                    />
+                  </div>
+                ))}
+              </div>
+            )}
+
+            <div className="flex flex-row justify-center">
+              <a
+                className="flex items-center gap-2 hover:underline hover:underline-offset-4 px-2"
+                href="https://github.com/sw_jewelry/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  aria-hidden
+                  src="/img/github.png"
+                  alt="Github icon"
+                  width={22}
+                  height={22}
+                />
+
+              </a>
+
+              <p>/</p>
+              <a
+                className="flex items-center gap-2 hover:underline hover:underline-offset-4 px-2"
+                href="https://sharonwisely.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+
+                site
+              </a>
             </div>
-            </div>
+          </div>
+
+          <div>
+
+          </div>
+        </div>
       </div>
     </div>
   );
