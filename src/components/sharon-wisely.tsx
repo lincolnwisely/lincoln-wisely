@@ -6,8 +6,8 @@ import { Chip as tChip } from '@/app/fixtures/types';
 
 export default function SharonWisely() {
   return (
-    <div className="font-medium w-full lg:w-1/2 lg:pr-8 flex-1">
-      <div className="flex flex-col h-full border rounded-lg overflow-hidden">
+    <div className="font-medium w-full md:w-1/2 flex-1">
+      <div className="flex flex-col h-full border rounded-lg overflow-hidden justify-around">
         <div>
 
           <Image className="object-cover" src={'/img/swj.png'}
@@ -18,7 +18,7 @@ export default function SharonWisely() {
           />
         </div>
 
-        <div className="p-4">
+        <div className="p-4 flex flex-col">
           <div className="p-4 font-medium">
             <h2 className="font-bold text-xl text-lime-200 mr-4">
               Sharon Wisely Jewelry
@@ -28,12 +28,12 @@ export default function SharonWisely() {
             </h2>
             <br />
 
-            <p>This will replace my mom&#39;s use of Etsy, which has declined in quality over the years. Built with MongoDB, Express, React, and Node.js.</p>
             <br />
             <p>Features user authentication w/ JWT tokens, product management and Stripe payments integration.</p>
             <br />
 
-            <br />
+          </div>
+          <div className="p-4">
 
             {/* Chips  */}
             {mern_chips.chips && mern_chips.chips.length > 0 && (

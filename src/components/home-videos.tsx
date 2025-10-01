@@ -5,8 +5,8 @@ import { Chip as tChip } from '@/app/fixtures/types';
 
 export default function HomeVideos() {
   return (
-    <div className="font-medium w-full lg:w-1/2 lg:pr-8 flex-1">
-      <div className="flex flex-col h-full border rounded-lg overflow-hidden">
+    <div className="font-medium w-full m:w-1/2 md:pr-8 flex-1">
+      <div className="flex flex-col h-full border rounded-lg overflow-hidden justify-around">
         <div>
 
           <Image className="object-cover" src={'/img/editing.png'}
@@ -18,7 +18,7 @@ export default function HomeVideos() {
         </div>
 
 
-        <div className="p-4">
+        <div className="p-4 flex-column justify-around">
 
           <div className="p-4 font-medium">
             <h2 className="font-bold text-xl text-lime-200">
@@ -41,6 +41,9 @@ export default function HomeVideos() {
             <br />
 
 
+
+          </div>
+          <div className="p-4">
             {/* Chips  */}
             {vhs_chips.chips && vhs_chips.chips.length > 0 && (
               <div className="flex flex-wrap gap-2">
@@ -59,7 +62,6 @@ export default function HomeVideos() {
                 ))}
               </div>
             )}
-
 
           </div>
         </div>

@@ -1,9 +1,6 @@
 {
     "chips": [
-  {
-          "label": "TypeScript", 
-          "url": "https://www.typescriptlang.org/"
-        }, 
+
         {
                       "label":"ClearClick",
                   "url":"https://www.clearclick.com/products/video-to-usb-audio-video-capture-live-streaming-device"
@@ -20,9 +17,8 @@
             },
                      {       "label":"Plex",
                   "url": "https://www.plex.tv/personal-media-server/"
-            },
+            }
        
-            {"label": "Github Actions CI/CD", 
-        "url": "https://github.com/features/actions"}
+
     ]
 }
