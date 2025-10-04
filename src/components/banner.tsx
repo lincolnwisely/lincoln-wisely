@@ -18,8 +18,8 @@ export default function Banner() {
           rel="noopener noreferrer"
         >
           LinkedIn
-        </a>
-        {' '}or{' '}
+        </a>{' '}
+        or{' '}
         <a
           className="underline"
           href="mailto:lincolnwisely@gmail.com"

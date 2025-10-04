@@ -10,28 +10,28 @@
           "logo": "/img/plex.png"
         }
       ],
-      "url": "https://www.plex.tv/", 
-         "chips": [
+      "url": "https://www.plex.tv/",
+      "chips": [
         {
-          "label": "TypeScript", 
+          "label": "TypeScript",
           "url": "https://www.typescriptlang.org/"
-        }, 
-             {
-             "label": "React Native", 
-          "url": "https://reactnative.dev/"
-        }, 
+        },
         {
-          "label": "BFF REST API", 
+          "label": "React Native",
+          "url": "https://reactnative.dev/"
+        },
+        {
+          "label": "BFF REST API",
           "url": "hhttps://learn.microsoft.com/en-us/azure/architecture/patterns/backends-for-frontends"
-        }, 
-    {
-          "label": "Vitest", 
+        },
+        {
+          "label": "Vitest",
           "url": "https://vitest.dev/"
-        }, 
-            {
-        "label": "Figma", 
+        },
+        {
+          "label": "Figma",
           "url": "https://www.figma.com/"
-        }           
+        }
       ]
     },
     {
@@ -52,33 +52,36 @@
           "logo": "/img/unigroup.png"
         }
       ],
-      "url": "https://www.hlkagency.com", 
+      "url": "https://www.hlkagency.com",
       "chips": [
         {
-          "label": "Web Components", 
+          "label": "Web Components",
           "url": "https://stenciljs.com/"
-        }, 
-             {
-             "label": "WP", 
+        },
+        {
+          "label": "WP",
           "url": "https://wordpress.org/"
-        }, 
+        },
         {
-          "label": "React", 
+          "label": "React",
           "url": "https://react.dev/"
-        }, 
-    {
-          "label": "a little python", 
-          "url": "https://www.python.org/"
-        }, 
+        },
         {
-        "label": "Next.js", 
+          "label": "a little python",
+          "url": "https://www.python.org/"
+        },
+        {
+          "label": "Next.js",
           "url": "https://nextjs.org/"
-        }, 
-            {
-        "label": "Sketch", 
+        },
+        {
+          "label": "Sketch",
           "url": "https://www.sketch.com/prototype/"
-        }              
-
+        },
+        {
+          "label": "CSS Preprocessors",
+          "url": "https://sass-lang.com/"
+        }
       ]
     },
     {
@@ -101,29 +104,36 @@
           "logo": "/img/michigan-medicine.png"
         }
       ],
-      "url": "https://www.manifest.com", 
-               "chips": [
+      "url": "https://www.manifest.com",
+      "chips": [
         {
-          "label": "Drupal", 
+          "label": "Drupal",
           "url": "https://drupal.org"
-        }, 
-             {
-             "label": "MySql", 
-          "url": "mysql.com"
-        }, 
+        },
         {
-          "label": "JavaScript", 
+          "label": "MySql Workbench",
+          "url": "https://www.mysql.com/products/workbench/"
+        },
+        {
+          "label": "JavaScript",
           "url": "https://react.dev/"
-        }, 
-    {
-          "label": "jQuery", 
+        },
+        {
+          "label": "jQuery",
           "url": "https://jquery.com/"
-        }, 
-            {
-        "label": "Google Maps", 
+        },
+        {
+          "label": "Google Maps",
           "url": "https://developers.google.com/maps"
-        }           
-
+        },
+        {
+          "label": "CSS Preprocessors",
+          "url": "https://sass-lang.com/"
+        },
+        {
+          "label": "HTML Emails",
+          "url": "https://sass-lang.com/"
+        }
       ]
     }
   ]

@@ -11,9 +11,7 @@ export default function Home() {
       <Banner />
       <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
         <main className="flex flex-col gap-[32px] row-start-2  sm:items-start">
-
           <div className="flex flex-col-reverse lg:flex-row justify-center font-medium">
-
             <div className="w-full lg:pr-8 flex-center">
               <h1 className="text-4xl text-left font-mono font-bold pb-8">
                 Lincoln Wisely
@@ -127,7 +125,6 @@ export default function Home() {
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-
           href="https://www.youtube.com/@lwisely/videos"
           target="_blank"
           rel="noopener noreferrer"

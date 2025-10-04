@@ -7,7 +7,6 @@ interface Client {
   logo: string;
 }
 
-
 interface ExperienceItem {
   title: string;
   description: string;
@@ -44,18 +43,15 @@ export default function Experience() {
 
             {/* Logos  */}
             {item.clients && item.clients.length > 0 && (
-              <div className="flex justify-center  pb-5">
-                <div className="flex">
+              <div className="pb-5">
+                <div className="flex justify-center">
                   {item.clients.map((client: Client, clientIndex: number) => (
-                    <div
-                      key={clientIndex}
-                      className=" gap-2 m-2 text-sm flex justify-end"
-                    >
+                    <div key={clientIndex} className=" gap-2 m-2 flex">
                       <Image
                         src={client.logo}
                         alt={`${client.name} logo`}
-                        width={80}
-                        height={50}
+                        width={90}
+                        height={60}
                         className="object-contain"
                       />
                     </div>
@@ -68,22 +64,17 @@ export default function Experience() {
             {item.chips && item.chips.length > 0 && (
               <div className="flex flex-wrap gap-1">
                 {item.chips.map((chip: tChip, chipIndex: number) => (
-                  <div
-                    key={chipIndex}
-                  >
+                  <div key={chipIndex}>
                     <Chip
                       label={chip.label}
                       url={chip.url}
-                      color='bg-indigo-400'
-                      hoverColor='bg-indigo-600'
+                      color="bg-indigo-400"
+                      hoverColor="bg-indigo-600"
                     />
                   </div>
                 ))}
               </div>
             )}
-
-
-
           </div>
         ))}
       </div>

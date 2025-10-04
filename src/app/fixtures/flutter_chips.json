@@ -1,27 +1,18 @@
 {
-    "chips": [
-  {
-          "label": "Flutter", 
-          "url": "flutter.dev"
-        }, 
-        {
-                      "label":"Dart",
-                  "url":"dart.dev"
-        }, 
+  "chips": [
+    {
+      "label": "Flutter",
+      "url": "flutter.dev"
+    },
+    {
+      "label": "Dart",
+      "url": "dart.dev"
+    },
 
-        {       "label":"Google Cloud",
-                  "url": "cloud.google.com"
-            },
-                    {       "label":"Gemini",
-                  "url": "https://gemini.google.com/app"
-            },
-   
-                  {       "label":"Claude Code",
-                  "url": "claude.ai"
-            },
-                   {       "label":"Firebase",
-                  "url": "claude.ai"
-            }
-        
-    ]
+    { "label": "Google Cloud", "url": "cloud.google.com" },
+    { "label": "Gemini", "url": "https://gemini.google.com/app" },
+
+    { "label": "Claude Code", "url": "claude.ai" },
+    { "label": "Firebase", "url": "https://firebase.google.com/" }
+  ]
 }
