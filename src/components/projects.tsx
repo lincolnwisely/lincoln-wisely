@@ -28,7 +28,7 @@ export default function Projects() {
           ]}
         />
 
-        <ProjectCard
+        {/* <ProjectCard
           title="Flutter App"
           description="Leveraging AI models for image analysis and facial recognition to solve the most critical first-world problems. Project for learning only."
           data={flutter_chips.chips}
@@ -39,7 +39,7 @@ export default function Projects() {
               label: 'source',
             },
           ]}
-        />
+        /> */}
       </div>
     </div>
   );
