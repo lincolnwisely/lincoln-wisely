@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import ContactForm from '@/components/form';
 import Experience from '@/components/experience';
-import Banner from '@/components/banner';
 import Quotes from '@/components/quotes';
 import Projects from '@/components/projects';
 
@@ -23,22 +22,10 @@ export default function Home() {
               <br />
               <p>
                 I have 9 years of combined experience as a web developer and
-                software engineer, most recently using TypeScript and React. I
-                have full-stack experience as well, and am building a &nbsp;
-                <a
-                  href="https://github.com/lincolnwisely/sw_jewelry"
-                  className="text-lime-200"
-                  target="_blank"
-                  rel="nofollow noopen"
-                >
-                  MERN-stack e-commerce site
-                </a>{' '}
-                to level up my backend skills.
-              </p>
-
+                software engineer, most recently using TypeScript and React.</p>
               <br />
               <p>
-                I love dogs, traveling to new places and managing my personal
+                I love dogs, golf, video games, traveling to new places and managing my personal
                 media server.
               </p>
             </div>
@@ -54,12 +41,12 @@ export default function Home() {
           </div>
           <br />
 
-          <div className="w-full">
+          {/* <div className="w-full">
             <h2 className="font-mono font-bold text-2xl">Personal projects</h2>
             <br />
             <Projects />
           </div>
-          <br />
+          <br /> */}
 
           <div className="w-full">
             <h2 className="font-mono font-bold text-2xl">

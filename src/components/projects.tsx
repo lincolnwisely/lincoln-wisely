@@ -1,7 +1,6 @@
 import ProjectCard from './ProjectCard';
 import vhs_chips from '../app/fixtures/vhs_chips.json';
 import mern_chips from '../app/fixtures/mern_chips.json';
-import flutter_chips from '../app/fixtures/flutter_chips.json';
 
 export default function Projects() {
   return (
