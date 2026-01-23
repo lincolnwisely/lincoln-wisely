@@ -1,7 +1,8 @@
 export default function Banner() {
   return (
-    <div className="bg-indigo-500 text-white w-screen flex justify-center">
-      <h5 className="text-center p-2">
+    <div className="bg-indigo-500 text-white w-screen absolute justify-center p-3">
+      <h5 className="text-center p-2">Are you registered to vote? 🗳️ <a className="underline" href="https://www.vote.org/am-i-registered-to-vote" target="_blank" rel="noopener noreferrer">If you live in the US, check here</a>.</h5>
+      {/* <h5 className="text-center p-2">
         Hey everyone! I am currently seeking a new role. Reach out via the{' '}
         <a
           className="underline"
@@ -29,7 +30,7 @@ export default function Banner() {
           email
         </a>
         .
-      </h5>
+      </h5> */}
     </div>
   );
 }

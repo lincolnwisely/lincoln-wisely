@@ -3,11 +3,12 @@ import ContactForm from '@/components/form';
 import Experience from '@/components/experience';
 import Quotes from '@/components/quotes';
 import Projects from '@/components/projects';
+import Banner from '@/components/banner';
 
 export default function Home() {
   return (
     <div>
-      {/* <Banner /> */}
+      <Banner />
       <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
         <main className="flex flex-col gap-[32px] row-start-2  sm:items-start">
           <div className="flex flex-col-reverse lg:flex-row justify-center font-medium">
