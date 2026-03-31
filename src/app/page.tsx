@@ -2,7 +2,6 @@ import Image from 'next/image';
 import ContactForm from '@/components/form';
 import Experience from '@/components/experience';
 import Quotes from '@/components/quotes';
-import Projects from '@/components/projects';
 import Banner from '@/components/banner';
 
 export default function Home() {

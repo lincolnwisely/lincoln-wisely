@@ -1,36 +1,7 @@
 export default function Banner() {
   return (
-    <div className="bg-indigo-500 text-white w-screen absolute justify-center p-3">
-      <h5 className="text-center p-2">Are you registered to vote? 🗳️ <a className="underline" href="https://www.vote.org/am-i-registered-to-vote" target="_blank" rel="noopener noreferrer">If you live in the US, check here</a>.</h5>
-      {/* <h5 className="text-center p-2">
-        Hey everyone! I am currently seeking a new role. Reach out via the{' '}
-        <a
-          className="underline"
-          href="https://lincolnwisely.com#form"
-          rel="noopener noreferrer"
-        >
-          contact form
-        </a>
-        ,{' '}
-        <a
-          className="underline"
-          href="https://www.linkedin.com/in/lincolnwisely/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>{' '}
-        or{' '}
-        <a
-          className="underline"
-          href="mailto:lincolnwisely@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          email
-        </a>
-        .
-      </h5> */}
+    <div className="bg-indigo-500 text-white w-screen justify-center p-3">
+      <h5 className="text-center p-2">Are you registered to vote? 🗳️ If you live in the US, <a className="underline" href="https://www.vote.org/am-i-registered-to-vote" target="_blank" rel="noopener noreferrer">check here</a>.</h5>
     </div>
   );
 }
