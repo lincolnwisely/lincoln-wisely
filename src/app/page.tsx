@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Banner />
-      <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 gap-16 sm:p-20">
+      <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-8 pb-20 sm:p-20">
         <main className="flex flex-col gap-[32px] row-start-2  sm:items-start">
           <div className="flex flex-col-reverse lg:flex-row justify-center font-medium">
             <div className="w-full lg:pr-8 flex-center">
@@ -21,15 +21,16 @@ export default function Home() {
               </p>
               <br />
               <p>
-                I have 9 years of combined experience as a web developer and
-                software engineer, most recently using TypeScript and React.</p>
+                Since 2016, I have been building online experiences, mostly using React and Typescript.</p>
+
               <br />
+              <p>Recently, I joined <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a> as a volunteer web developer. Rfr is a global resource for online and in-person, judgement-free support for those seeking community at any stage of their deconstruction process.</p>
+              <br />
+
               <p>
                 I love dogs, golf, video games, traveling to new places and managing my personal
                 media server.
               </p>
-              <br />
-              <p>I recently joined as a volunteer web developer at <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a>, a global resource for online and in-person, judgement-free support for those seeking community at any stage of their deconstruction process.</p>
             </div>
           </div>
           <br />
