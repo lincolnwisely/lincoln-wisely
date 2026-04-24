@@ -28,6 +28,8 @@ export default function Home() {
                 I love dogs, golf, video games, traveling to new places and managing my personal
                 media server.
               </p>
+              <br />
+              <p>I recently joined as a volunteer web developer at <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a>, a global resource for online and in-person, judgement-free support for those seeking community at any stage of their deconstruction process.</p>
             </div>
           </div>
           <br />
