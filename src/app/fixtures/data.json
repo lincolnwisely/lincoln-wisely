@@ -2,7 +2,7 @@
   "experience": [
     {
       "title": "Plex",
-      "description": "Initially developed features for Smart TV apps using Lightning JS; later transitioned to React Native, contributing to the internal BFF API, consuming other internal APIs to support the Plex app and keeping things tidy with integration tests.",
+      "description": "Initially developed features for Smart TV apps using Lightning JS; later transitioned to React Native, contributing to the internal BFF API, consuming other internal APIs to support the Plex app and keeping things tidy with unit tests.",
       "logo": null,
       "clients": [
         {

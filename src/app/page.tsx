@@ -16,21 +16,19 @@ export default function Home() {
                 Lincoln Wisely
               </h1>
               <p>
-                Hi, I&#39;m Lincoln, a software engineer based in Saint Louis,
+                Hi, I&#39;m Lincoln, a React/TypeScript software engineer based in Saint Louis,
                 Missouri, USA.
               </p>
               <br />
+              {/* <p>I am a volunteer web developer at <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a>.</p>
+              <br /> */}
               <p>
-                Since 2016, I have been building online experiences, mostly using React and Typescript.</p>
-
-              <br />
-              <p>Recently, I joined <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a> as a volunteer web developer. Rfr is a global resource for online and in-person, judgement-free support for those seeking community at any stage of their deconstruction process.</p>
-              <br />
-
-              <p>
-                I love dogs, golf, video games, traveling to new places and managing my personal
+                I love dogs, golf, video games, logic & reason, birds,
+                traveling to new places and managing my personal
                 media server.
               </p>
+              <br />
+              <p>I do not like fascism, religion, willful ignorance or walking on very loose gravel.</p>
             </div>
           </div>
           <br />
