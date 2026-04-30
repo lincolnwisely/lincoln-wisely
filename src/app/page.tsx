@@ -28,7 +28,7 @@ export default function Home() {
                 media server.
               </p>
               <br />
-              <p>I do not like fascism, religion, billionaires, Citizens United, willful ignorance or walking on very loose gravel.</p>
+              <p>I do not like fascism, religion in politics, billionaires, Citizens United, willful ignorance or walking on very loose gravel.</p>
             </div>
           </div>
           <br />
