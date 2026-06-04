@@ -27,8 +27,6 @@ export default function Home() {
                 traveling to new places and managing my personal
                 media server.
               </p>
-              {/* <br />
-              <p>I do not like fascism, religion in politics, billionaires, Citizens United, willful ignorance or walking on very loose gravel.</p> */}
             </div>
           </div>
           <br />
@@ -66,66 +64,76 @@ export default function Home() {
         </main>
       </div>
 
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center p-4">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/lincolnwisely/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/img/github.png"
-            alt="Github icon"
-            width={22}
-            height={22}
-          />
-          Github
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/lincolnwisely/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/img/linkedin.png"
-            alt="LinkedIn logo"
-            width={20}
-            height={20}
-          />
-          LinkedIn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/lincoln_wisely_resume.pdf"
-          download="lincoln_wisely_resume.pdf"
-        >
-          <Image
-            aria-hidden
-            src="/img/file.png"
-            alt="resume icon"
-            width={15}
-            height={15}
-          />
-          Resume
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.youtube.com/@lwisely/videos"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/img/youtube.png"
-            alt="youtube icon"
-            width={22}
-            height={22}
-          />
-          Youtube
-        </a>
+      <footer className="flex flex-col items-center">
+        <div className="flex justify-center p-4">
+          <a
+            className="flex items-center m-2 hover:underline hover:underline-offset-4"
+            href="https://github.com/lincolnwisely/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              className="m-1"
+              src="/img/github.png"
+              alt="Github icon"
+              width={22}
+              height={22}
+            />
+            Github
+          </a>
+          <a
+            className="flex items-center p-2 hover:underline hover:underline-offset-4"
+            href="https://www.linkedin.com/in/lincolnwisely/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              className="m-1"
+              src="/img/linkedin.png"
+              alt="LinkedIn logo"
+              width={20}
+              height={20}
+            />
+            LinkedIn
+          </a>
+          <a
+            className="flex items-center p-2 hover:underline hover:underline-offset-4"
+            href="/lincoln_wisely_resume.pdf"
+            download="lincoln_wisely_resume.pdf"
+          >
+            <Image
+              aria-hidden
+              className="m-1"
+              src="/img/file.png"
+              alt="resume icon"
+              width={15}
+              height={15}
+            />
+            Resume
+          </a>
+          <a
+            className="flex items-center p-2 hover:underline hover:underline-offset-4"
+            href="https://www.youtube.com/@lwisely/videos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              className="m-1"
+              src="/img/youtube.png"
+              alt="youtube icon"
+              width={22}
+              height={22}
+            />
+            Youtube
+          </a>
+        </div>
+
+        <div className="flex flex-row items-center justify-center p-4 opacity-30">
+          <p>Copyright © {new Date().getFullYear()} Lincoln Wisely</p>
+        </div>
       </footer>
     </div>
   );
