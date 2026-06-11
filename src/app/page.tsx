@@ -20,13 +20,12 @@ export default function Home() {
                 Missouri, USA.
               </p>
               <br />
-              {/* <p>I am a volunteer web developer at <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a>.</p>
-              <br /> */}
               <p>
-                I love dogs, golf, video games, logic & reason, birds,
-                traveling to new places and managing my personal
-                media server.
+                I love dogs, golf, video games, tv/movies/music, logic & reason, MF birds,
+                traveling to new places and managing my personal media server.
               </p>
+              <br />
+              <p>Since 2026, I have been volunteering as a web developer at <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a>, contributing features and fixes to the volunteer management app that supports their interviewing, training, and coordination of hundreds of volunteers.</p>
             </div>
           </div>
           <br />
@@ -49,7 +48,7 @@ export default function Home() {
 
           <div className="w-full">
             <h2 className="font-mono font-bold text-2xl">
-              Wise words from a baddie
+              Words to live by
             </h2>
             <br />
             <Quotes />
