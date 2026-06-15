@@ -21,8 +21,7 @@ export default function Home() {
               </p>
               <br />
               <p>
-                I love dogs, golf, video games, tv/movies/music, logic & reason, MF birds,
-                traveling to new places and managing my personal media server.
+                I love dogs, traveling to new places and managing my personal media server.
               </p>
               <br />
               <p>Since 2026, I have been volunteering as a web developer at <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a>, contributing features and fixes to the volunteer management app that supports their interviewing, training, and coordination of hundreds of volunteers.</p>
