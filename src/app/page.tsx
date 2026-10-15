@@ -21,10 +21,11 @@ export default function Home() {
               </p>
               <br />
               <p>
-                I love dogs, traveling to new places and managing my personal media server.
-              </p>
-              <br />
-              <p>Since 2026, I have been volunteering as a web developer at <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a>, contributing features and fixes to the volunteer management app that supports their interviewing, training, and coordination of hundreds of volunteers.</p>
+                I love dogs, traveling to new places, managing my personal media server and getting carried away with misc. endeavors, such as  <a className="underline text-indigo-400 hover:text-indigo-500 "
+                  href="https://www.sanrancho.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >San Rancho</a>, my hobby project built out of a necessity to curate a wardrobe consisting primarily of cult-and-soccer-camp-themed graphic tees.</p>
             </div>
           </div>
           <br />
