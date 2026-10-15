@@ -86,7 +86,7 @@ export default function DesignPage() {
           </p>
           <Link
             href="/#contact"
-            className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-md hover:bg-indigo-700 transition-colors"
+            className="inline-block bg-red-600 text-white px-6 py-3 rounded-md hover:bg-red-700 transition-colors"
           >
             Get in Touch
           </Link>

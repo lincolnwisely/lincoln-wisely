@@ -60,10 +60,10 @@ export default function Quote() {
 
   return (
     <div className="flex flex-column">
-      {/* <button onClick={prevQuote} className="text-indigo hover:text-indigo-200 text-1xl">
+      {/* <button onClick={prevQuote} className="text-red hover:text-red-200 text-1xl">
           ←
         </button> */}
-      <div className="p-4 rounded-lg bg-indigo-500 h-full">
+      <div className="p-4 rounded-lg bg-blue-500 h-full">
         <blockquote className="mt-4 pl-4 border-l-3 border-white text-lg whitespace-pre-wrap">
           &quot;{leQuotes[0].message}&quot;
         </blockquote>
@@ -72,7 +72,7 @@ export default function Quote() {
           <p className="text-right font-bold font-mono text-xl p-4">
             - {leQuotes[0].author}
           </p>
-          {/* <button onClick={nextQuote} className="flex-none text-indigo hover:text-indigo-200 text-xl">
+          {/* <button onClick={nextQuote} className="flex-none text-red hover:text-red-200 text-xl">
           →
         </button> */}
         </div>

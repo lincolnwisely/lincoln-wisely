@@ -21,7 +21,7 @@ export default function Home() {
               </p>
               <br />
               <p>
-                I love dogs, traveling to new places, managing my personal media server and getting carried away with misc. endeavors, such as  <a className="underline text-indigo-400 hover:text-indigo-500 "
+                I love dogs, traveling to new places, managing my personal media server and getting carried away with misc. endeavors, such as  <a className="underline text-blue-400 hover:text-blue-500 "
                   href="https://www.sanrancho.com"
                   target="_blank"
                   rel="noopener noreferrer"
