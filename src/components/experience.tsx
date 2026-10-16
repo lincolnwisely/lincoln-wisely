@@ -31,7 +31,7 @@ export default function Experience() {
             <div className="flex items-center gap-3 mb-4">
               <div>
                 <a
-                  className="hover:underline text-blue-500"
+                  className="hover:underline text-indigo-500"
                   href={item.url}
                   target="_blank"
                 >
@@ -68,7 +68,7 @@ export default function Experience() {
                     <Chip
                       label={chip.label}
                       url={chip.url}
-                      color="bg-blue-400"
+                      color="bg-indigo-400"
                       hoverColor="bg-red-600"
                     />
                   </div>

@@ -1,8 +1,8 @@
 export default function Chip({
   label,
   url,
-  color = 'bg-blue-400',
-  hoverColor = 'bg-blue-500',
+  color = 'bg-indigo-400',
+  hoverColor = 'bg-indigo-500',
   textSize = 'text-xs',
 }: {
   label: string;
