@@ -16,15 +16,22 @@ export default function Home() {
                 Lincoln Wisely
               </h1>
               <p>
-                Hi, I&#39;m Lincoln, a React/TypeScript software engineer based in Saint Louis,
-                Missouri, USA.
+                Hi, I&#39;m Lincoln, a React/TypeScript/full-stack software engineer currently based in Saint Louis,
+                Missouri.
               </p>
               <br />
               <p>
-                I love dogs, traveling to new places and managing my personal media server.
-              </p>
+                I love dogs, traveling and everything media: managing my personal server, watching tv/movies and playing video games.</p>
               <br />
-              <p>Since 2026, I have been volunteering as a web developer at <a href="https://recoveringfromreligion.org" target="_blank" rel="noopener noreferrer" className="underline text-indigo-400 hover:text-indigo-500 ">Recovering from Religion</a>, contributing features and fixes to the volunteer management app that supports their interviewing, training, and coordination of hundreds of volunteers.</p>
+              <p>
+
+                Also, my store is open: <a className="underline text-indigo-400 hover:text-indigo-500 "
+                  href="https://www.sanrancho.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >San Rancho</a> sells minimalist tees commemorating cults, camps and exclusive communities.
+              </p>
+
             </div>
           </div>
           <br />
@@ -60,7 +67,7 @@ export default function Home() {
             <ContactForm />
           </div>
         </main>
-      </div>
+      </div >
 
       <footer className="flex flex-col items-center">
         <div className="flex justify-center p-4">
@@ -133,6 +140,6 @@ export default function Home() {
           <p>Copyright © {new Date().getFullYear()} Lincoln Wisely</p>
         </div>
       </footer>
-    </div>
+    </div >
   );
 }

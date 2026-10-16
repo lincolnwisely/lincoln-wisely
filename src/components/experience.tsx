@@ -69,7 +69,7 @@ export default function Experience() {
                       label={chip.label}
                       url={chip.url}
                       color="bg-indigo-400"
-                      hoverColor="bg-indigo-600"
+                      hoverColor="bg-red-600"
                     />
                   </div>
                 ))}

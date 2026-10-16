@@ -81,7 +81,7 @@ export default function ContactForm() {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full max-w-md bg-indigo-500 text-white py-2 px-4 rounded-md hover:bg-indigo-100 focus:outline-none focus:ring-2 focus:bg-indigo-100 hover:text-black focus:text-black focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+          className="w-full max-w-md bg-indigo-500 text-white py-2 px-4 rounded-md hover:bg-red-100 focus:outline-none focus:ring-2 focus:bg-red-100 hover:text-black focus:text-black focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
         >
           {isSubmitting ? 'Sending...' : 'Send Message'}
         </button>
@@ -89,11 +89,10 @@ export default function ContactForm() {
 
       {message && (
         <div
-          className={`mt-4 p-3 rounded-md text-sm ${
-            message.includes('successfully')
-              ? 'bg-green-100 text-green-700 border border-green-200'
-              : 'bg-red-100 text-red-700 border border-red-200'
-          }`}
+          className={`mt-4 p-3 rounded-md text-sm ${message.includes('successfully')
+            ? 'bg-green-100 text-green-700 border border-green-200'
+            : 'bg-red-100 text-red-700 border border-red-200'
+            }`}
         >
           {message}
         </div>
